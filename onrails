@@ -1,0 +1,22 @@
+Searching 75 files for "omruby" (regex, case sensitive)
+
+/Users/benthomson/Desktop/omruby/package.json:
+    1  {
+    2:   "name": "omruby",
+    3    "private": true,
+    4    "dependencies": {}
+
+/Users/benthomson/Desktop/omruby/config/cable.yml:
+    8    adapter: redis
+    9    url: redis://localhost:6379/1
+   10:   channel_prefix: omruby_production
+   11  
+
+/Users/benthomson/Desktop/omruby/config/environments/production.rb:
+   60    # Use a real queuing backend for Active Job (and separate queues per environment)
+   61    # config.active_job.queue_adapter     = :resque
+   62:   # config.active_job.queue_name_prefix = "omruby_#{Rails.env}"
+   63    config.action_mailer.perform_caching = false
+   64  
+
+3 matches across 3 files
